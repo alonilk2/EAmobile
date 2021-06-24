@@ -1,5 +1,5 @@
-#EAmobile Website
-#URL: https://eamobileisrael.com
+# EAmobile Website
+# URL: https://eamobileisrael.com
 
 
 Website made using the following technologies: 
