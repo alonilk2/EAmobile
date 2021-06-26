@@ -15,7 +15,7 @@ class InstaFeed extends Component
     async componentWillMount() {
         this.postList = this.postList.bind(this);
         try {
-            var posts = await Axios.post("http://eamobileisrael.com/getFeed"); 
+            var posts = await Axios.post("https://eamobileisrael.com/getFeed"); 
 
             if(posts.data)
             {

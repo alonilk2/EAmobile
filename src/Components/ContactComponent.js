@@ -11,10 +11,10 @@ import MenuComponent from './MenuComponent'
 import Form from 'react-bootstrap/Form'
 import Axios from "axios";
 import Alert from 'react-bootstrap/Alert'
-import FB from '../Images/fb-big.png'
-import INSTA from '../Images/insta-big.png'
-import WHATSAPP from '../Images/whatsapp-big.png'
-import PHONEICON from '../Images/phone.png'
+import FB from '../Images/fb-big.jpg'
+import INSTA from '../Images/insta-big.jpg'
+import WHATSAPP from '../Images/whatsapp-big.jpg'
+import PHONEICON from '../Images/phone.jpg'
 import Spinner from 'react-bootstrap/Spinner'
 class ContactComponent extends Component 
 {
@@ -40,7 +40,7 @@ class ContactComponent extends Component
             var Phone = this.state.Phone;
             var Content = this.state.Content;
             this.setState({loading: true})
-            var response = await Axios.post("http://eamobileisrael.com/contact", {Name, Mail, Phone, Content}); 
+            var response = await Axios.post("https://eamobileisrael.com/contact", {Name, Mail, Phone, Content}); 
             if(response)
             {
                 if(response.data.success)
@@ -66,7 +66,7 @@ class ContactComponent extends Component
                 transform: `translate(0, ${this.state.Slide})`,
                 transition: 'transform 90ms linear',}}>
                     <div className="row logo">
-                        <a href="/" style={{height: '100%'}} ><img className="logo-img" src={LOGO}  /></a>
+                        <a href="/" style={{height: '100%'}} ><img className="logo-img" alt="EAMobile שחזור מידע ותיקון סמארטפונים" src={LOGO}  /></a>
                     </div>
                 </div>
                 <MenuComponent />
@@ -86,9 +86,9 @@ class ContactComponent extends Component
 
                     <div className="col-4 left-col divider">
                         <a href="tel:0547629284"><img className="contact-btn" src={PHONEICON} /></a>
-                        <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img className="contact-btn" src={FB} /></a>
-                        <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img className="contact-btn" src={INSTA} /></a>
-                        <a className="icon-link" href="https://wa.me/0547629284" ><img className="contact-btn" src={WHATSAPP} /></a>
+                        <a className="icon-link" href="https://www.facebook.com/Eamobileisrael-108820004686438" ><img className="contact-btn" alt="Facebook" src={FB} /></a>
+                        <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img className="contact-btn" alt="Instagram" src={INSTA} /></a>
+                        <a className="icon-link" href="https://wa.me/0547629284" ><img className="contact-btn" src={WHATSAPP} alt="Whatsapp"/></a>
                     </div>
                     <div className="col contact-container">
 

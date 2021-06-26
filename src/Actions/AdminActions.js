@@ -7,7 +7,7 @@ const signin = (username, password) => async (dispatch) => {
     dispatch({type: USER_SIGNIN_ATTEMPT, payload: {username, password}});
     try {
         console.log(username)
-        const user = await Axios.post("http://eamobileisrael.com/login", {username,password});
+        const user = await Axios.post("https://eamobileisrael.com/login", {username,password});
         console.log(JSON.stringify(user.data.token));
         Cookie.set('userInstance', JSON.stringify(user.data.token));
         history.push('/eaadmin');
@@ -28,7 +28,7 @@ const signout = () => (dispatch) => {
 
 const updateposts = (jsonData) => async (dispatch) => {
     try {
-        const response = await Axios.post("http://eamobileisrael.com/updateposts", {jsonData});
+        const response = await Axios.post("https://eamobileisrael.com/updateposts", {jsonData});
         console.log(jsonData)
         console.log(JSON.stringify(response));
         return true;

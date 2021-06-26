@@ -26,16 +26,16 @@ class Footer extends Component
                         <a className="foot-link" href="/contactus">צור קשר</a>
                     </div>
                     <div className="col contact-home">
-                        <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img src={insta} className="contact-icon"/></a>
-                        <a className="icon-link" href="https://wa.me/0547629284" ><img src={whatsapp} className="contact-icon"/></a>
-                        <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img src={fb} className="contact-icon1"/></a>
+                        <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img src={insta} alt="instagram" className="contact-icon"/></a>
+                        <a className="icon-link" href="https://wa.me/0547629284" ><img src={whatsapp} alt="whatsapp" className="contact-icon"/></a>
+                        <a className="icon-link" href="https://www.facebook.com/Eamobileisrael-108820004686438" ><img src={fb} alt="facebook" className="contact-icon1"/></a>
                     </div>
                 </div>
                 <div className="row copyright_txt">
                         כל הזכויות שמורות © EAmobile 2011
                 </div>
                 <div className="row">
-                    <img src={abdev} className="abdev" />
+                    <a className="abdev" href="https://github.com/alonilk2" ><img src={abdev} alt="ABdev" className="abdev" /></a>
                 </div>
             </div>
         );
