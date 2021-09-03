@@ -2,7 +2,7 @@
 # URL: https://eamobileisrael.com
 
 
-Website made using the following technologies: 
+A responsive website made using the following technologies: 
 1) React.JS
 2) Node.JS and Express.JS
 3) Bootstrap
