@@ -24,6 +24,7 @@ class Footer extends Component
                         <a className="foot-link" href="/about">אודותינו</a>
                         <a className="foot-link" href="https://www.instagram.com/eaphonerepairisrael/">תיק עבודות</a>
                         <a className="foot-link" href="/contactus">צור קשר</a>
+                        <a className="foot-link" href="/privacypolicy">תנאי שימוש ותקנון פרטיות</a>
                     </div>
                     <div className="col contact-home">
                         <a className="icon-link" href="https://www.instagram.com/eaphonerepairisrael/" ><img src={insta} alt="instagram" className="contact-icon"/></a>

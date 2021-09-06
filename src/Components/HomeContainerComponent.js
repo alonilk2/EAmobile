@@ -95,7 +95,7 @@ class HomeContainerComponent extends Component
                         <div className="fade1"></div>
                     </div>
                     <div className="txt-box" >
-                <this.desc />
+                        <this.desc />
                     </div>
                 </div>
                 <div className="sec-container">

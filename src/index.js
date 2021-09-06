@@ -4,6 +4,8 @@ import './index.css';
 import App from './Views/HomePageView';
 import AdminView from './Views/AdminView'
 import AboutView from './Views/AboutView'
+import privacypolicy from './Views/privacypolicy'
+
 import ContactComponent from './Components/ContactComponent'
 import * as serviceWorker from './serviceWorker';
 import {Router, Route, Switch, Redirect} from 'react-router-dom';
@@ -21,6 +23,7 @@ ReactDOM.render(
                     <Route path="/eaadmin" component={AdminView} />
                     <Route path="/contactus" component={ContactComponent} />
                     <Route path="/about" component={AboutView} />
+                    <Route path="/privacypolicy" component={privacypolicy} />
                     <Redirect from="*" to="/404" />
                 </Switch>
             </Router>    
