@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/EAmobile/static/css/main.3bdb18a5.chunk.css",
-    "main.js": "/EAmobile/static/js/main.5abda516.chunk.js",
-    "main.js.map": "/EAmobile/static/js/main.5abda516.chunk.js.map",
+    "main.js": "/EAmobile/static/js/main.ff3f21e8.chunk.js",
+    "main.js.map": "/EAmobile/static/js/main.ff3f21e8.chunk.js.map",
     "runtime-main.js": "/EAmobile/static/js/runtime-main.5ff17843.js",
     "runtime-main.js.map": "/EAmobile/static/js/runtime-main.5ff17843.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/EAmobile/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.64c8befa.chunk.js": "/EAmobile/static/js/2.64c8befa.chunk.js",
-    "static/js/2.64c8befa.chunk.js.map": "/EAmobile/static/js/2.64c8befa.chunk.js.map",
+    "static/js/2.05dd3276.chunk.js": "/EAmobile/static/js/2.05dd3276.chunk.js",
+    "static/js/2.05dd3276.chunk.js.map": "/EAmobile/static/js/2.05dd3276.chunk.js.map",
     "index.html": "/EAmobile/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/EAmobile/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.3bdb18a5.chunk.css.map": "/EAmobile/static/css/main.3bdb18a5.chunk.css.map",
-    "static/js/2.64c8befa.chunk.js.LICENSE.txt": "/EAmobile/static/js/2.64c8befa.chunk.js.LICENSE.txt",
+    "static/js/2.05dd3276.chunk.js.LICENSE.txt": "/EAmobile/static/js/2.05dd3276.chunk.js.LICENSE.txt",
     "static/media/abdev.433815f8.png": "/EAmobile/static/media/abdev.433815f8.png",
     "static/media/HomePageCSS.css": "/EAmobile/static/media/mobile-back-img.fffe3ca0.jpg",
     "static/media/fb.12995378.png": "/EAmobile/static/media/fb.12995378.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.5ff17843.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.64c8befa.chunk.js",
+    "static/js/2.05dd3276.chunk.js",
     "static/css/main.3bdb18a5.chunk.css",
-    "static/js/main.5abda516.chunk.js"
+    "static/js/main.ff3f21e8.chunk.js"
   ]
 }
