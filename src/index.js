@@ -20,11 +20,9 @@ ReactDOM.render(
             <Router history={history}>
                 <Switch>
                     <Route exact path="/" component={App} />
-                    <Route path="/eaadmin" component={AdminView} />
                     <Route path="/contactus" component={ContactComponent} />
                     <Route path="/about" component={AboutView} />
                     <Route path="/privacypolicy" component={privacypolicy} />
-                    <Redirect from="*" to="/404" />
                 </Switch>
             </Router>    
         </Provider>
